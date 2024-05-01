@@ -3,7 +3,7 @@
 I build :
 -------
 
-- Comment System
-- Tag System
+- Comments System
+- Tags System
 - Share Posts by E-mail
 - VerctorSearch and SearchQuery - Postgresql 
