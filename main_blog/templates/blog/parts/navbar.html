@@ -1,0 +1,50 @@
+{% load blog_tags %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="{% url 'blog:post_list' %}">My-Blog</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'blog:post_list' %}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'blog:post_search' %}">Search</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          New Posts
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% show_latest_posts 3 %}
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Most Commented Posts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% get_most_commented_posts as most_commented_posts %}
+          {% for post in most_commented_posts %}
+          <a class="dropdown-item" href="{{ post.get_absolute_url }}">{{ post.title|capfirst }}</a>
+          {% endfor %}
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+    </ul>
+
+    <span class="navbar-text">
+      I've written <b>{% total_posts %}</b> posts so far
+    </span>
+  </div>
+</nav>

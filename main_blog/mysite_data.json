@@ -1,0 +1,1410 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-04-08T23:33:04.066Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "building-dynamic-web-applications-with-python-django-and-databases",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-04-08T23:33:27.217Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "hello",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-04-08T23:34:47.594Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Linux OS",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-04-08T23:36:08.459Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Python languages Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-04-08T23:37:10.335Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Django Framework",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-04-08T23:37:59.175Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Data Base",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-04-08T23:43:29.395Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "hello",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-04-08T23:57:03.996Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Linux OS",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-04-08T23:59:16.255Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Data Base",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-04-08T23:59:27.051Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Data Base",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-04-12T02:12:23.901Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-04-12T02:12:23.947Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-04-12T02:12:24.040Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-04-12T02:12:24.085Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-04-12T02:21:27.409Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-04-12T02:21:27.450Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-04-12T02:21:27.496Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-04-12T02:21:27.541Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Comment by Moataz Fawzy on Django Framework",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-04-16T22:49:02.531Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Linux",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-04-16T22:50:18.443Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Python languages Programming tagged with Test\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-04-16T22:50:39.697Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-04-16T22:50:49.574Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Linux",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"Python languages Programming tagged with Linux\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-04-16T22:51:01.131Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "OpritingSystem",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"Python languages Programming tagged with OpritingSystem\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-04-16T22:51:17.097Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Programming",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Python languages Programming tagged with Programming\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-04-16T23:11:52.802Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Linux",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"Linux OS tagged with Linux\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-04-16T23:12:05.390Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Linux",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"Django Framework tagged with Linux\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-04-16T23:21:45.973Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Who is Mr- Moataz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-04-16T23:36:33.896Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "OpritingSystem",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-04-16T23:37:22.645Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Linux OS",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-04-16T23:40:22.889Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Data Base",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-04-16T23:40:41.370Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Data Base",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-04-16T23:41:15.144Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Python languages Programming",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-04-16T23:41:20.643Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Data Base",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-04-16T23:41:40.288Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Django Framework",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-04-19T23:54:46.946Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Who is Mr- Moataz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-04-22T00:29:20.905Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-04-23T01:33:45.364Z",
+    "user": 4,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-04-23T01:33:49.358Z",
+    "user": 4,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-04-23T19:30:12.426Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-04-23T19:32:49.733Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-04-23T19:33:58.210Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "###Markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-04-23T19:34:09.073Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-04-23T19:34:21.638Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Markdown",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-04-25T23:58:41.125Z",
+    "user": 4,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "mezo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$SKioIxZqRlvUhzlaozKVSQ$X1jAZjpFi4CI3ESSvJy2kamKcmvsbt4WHNy1ElAEdTM=",
+    "last_login": "2024-04-25T23:55:48Z",
+    "is_superuser": true,
+    "username": "mezo",
+    "first_name": "Moataz",
+    "last_name": "Fawzy",
+    "email": "mezo@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-04-08T23:24:18Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6m01a8nb8f6tm4un1wiwka4ohs9oy6ej",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rzLpH:bau0mr9y-zXIogFMQH-4whX5FfMf2cgxl04k4tZFWvs",
+    "expire_date": "2024-05-07T19:29:11.118Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9789umvegrc1w5ktkyg656y3x3mb7whi",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYqcRGliluw5Q2THDi2gVupnhbg7VOoCtm9m3ssU2ta-bIvOZRBzNs6cfjem-tBxB3Kn8TbZOo3rPLDdFXvQxV4n0eflcP8Oelr6bx1UGImzdM1jJmaN6D0khU5zcy1QAAafESukrE0YQHN0DUOLSYJ5fwD_ADhA:1rsqEG:DHlu4DCiwzi4d94wP3z3wOxPxPylbqwcVugbyvMfFeo",
+    "expire_date": "2024-04-19T20:32:04.431Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cs6z2j7jxsm89sd8zx2cdw956mj2tbt5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rvQsN:v3Ozw55iDmuJQMjXcwrncW34yU8sJLrDwqShjEA0wz0",
+    "expire_date": "2024-04-27T00:04:11.871Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iwq976h94mvnu1x17xhux2uv0abuh2ij",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rxy3f:GafzSXC4o7iYv5LChub7PXseSELQQwEAqA8lVi28xM0",
+    "expire_date": "2024-05-03T23:54:19.224Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jrw5c2gm4zuvlxr416lut2g2gaa71pdn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rwrX8:wIx_HXLTzhvOUe8KuzDH6D93SqhDm0tbaPEzUEST3io",
+    "expire_date": "2024-04-30T22:44:10.768Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kjl3k75z2yg8x4n5e96ltf1thvb4tkw8",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1ryhVm:nZ0LhMcN6lRODizmi_SZcDZ6aaF8FaQ6DL87j4vc4JQ",
+    "expire_date": "2024-05-06T00:26:22.275Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lml106d4g2w36j2tzsowwas6tgcou9ce",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1s08wO:OPD8kViVVyaRIO3ITSR5ayEMJY2XU-eo1-_VUBgLSgQ",
+    "expire_date": "2024-05-09T23:55:48.933Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p24h06k57yqq8rfyt4i6hgnr3n9kn2qd",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rtyLn:gHIzglb7tXlf8xYzxvr_XSiC9ueDGt1BqQtNYre2PJI",
+    "expire_date": "2024-04-22T23:24:31.506Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uxzw9f1nac2h6z7xqzo25bppndi2f913",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYqcRGliluw5Q2THDi2gVupnhbg7VOoCtm9m3ssU2ta-bIvOZRBzNs6cfjem-tBxB3Kn8TbZOo3rPLDdFXvQxV4n0eflcP8Oelr6bx1UGImzdM1jJmaN6D0khU5zcy1QAAafESukrE0YQHN0DUOLSYJ5fwD_ADhA:1rsC13:Ja48igVjhXsKGphBKGGFQg0eeXAaADQGQu4YGvqdraM",
+    "expire_date": "2024-04-18T01:35:45.750Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xah01fldzwvf99b1leyuxkfhm0ncr9e3",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0UASX7vsN5HIfUjWQ9LEy_rs26UK3Z2bOSyXY1pK2hec0kboop06_WwZ8cN0B3aHemsZW13nKelf0QRc9NuLn9XD_Dgos5Vub6L0AnNmaIEN0LktA6bM4RCQGEsjMaKIdOso9G7Hsu8GBOBsoWPX-AByBOVY:1rv5Nf:a6LRvJOgSg-fHpyJOrMPe9q-BI4UWJmLT5luwTMNE3U",
+    "expire_date": "2024-04-26T01:07:03.201Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Linux OS",
+    "slug": "linuxos",
+    "auther": 4,
+    "image": "images/2024/33/08/Kali_Linux_2019_4_Hacking_OS_Comes_With_An_Undercover_Mode_Hcks.jpeg",
+    "content": "Linux is an open-source operating system kernel originally created by Linus Torvalds. It's the foundation of many popular operating systems known as Linux distributions (distros), such as Ubuntu, Fedora, and Debian. Linux is renowned for its stability, security, and flexibility. It's widely used in servers, embedded systems, and even on personal computers as an alternative to proprietary operating systems like Windows and macOS. Linux provides a command-line interface (CLI) as well as graphical user interfaces (GUIs) through desktop environments like GNOME and KDE.",
+    "publish": "2024-04-08T23:33:09Z",
+    "created": "2024-04-08T23:33:27.215Z",
+    "updated": "2024-04-16T23:37:22.633Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Python languages Programming",
+    "slug": "python-languages-programming",
+    "auther": 4,
+    "image": "images/2024/36/08/download.jpeg",
+    "content": "Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python has a vast standard library and a thriving ecosystem of third-party packages, making it suitable for various domains such as web development, data science, machine learning, and automation. Python's syntax emphasizes code readability and allows developers to express concepts in fewer lines of code compared to other languages.",
+    "publish": "2024-04-08T23:35:33Z",
+    "created": "2024-04-08T23:36:08.458Z",
+    "updated": "2024-04-16T23:41:15.136Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Django Framework",
+    "slug": "django-framework",
+    "auther": 4,
+    "image": "images/2024/37/08/download_1.jpeg",
+    "content": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the Model-View-Template (MVT) architectural pattern, which is a variation of the Model-View-Controller (MVC) pattern. Django includes built-in features for authentication, URL routing, database management, template rendering, and more, allowing developers to focus on building web applications without reinventing the wheel. Django's \"batteries-included\" philosophy promotes best practices and simplifies common web development tasks.",
+    "publish": "2024-04-08T23:36:19Z",
+    "created": "2024-04-08T23:37:10.333Z",
+    "updated": "2024-04-16T23:41:40.279Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Data Base",
+    "slug": "data-base",
+    "auther": 4,
+    "image": "images/2024/37/08/download_2.jpeg",
+    "content": "A database is an organized collection of structured data stored electronically. Databases are essential for storing, managing, and retrieving data efficiently. There are various types of databases, including relational databases (e.g., PostgreSQL, MySQL, SQLite), NoSQL databases (e.g., MongoDB, Cassandra), and NewSQL databases (e.g., CockroachDB, TiDB). Relational databases organize data into tables with predefined schemas, whereas NoSQL databases offer more flexibility in data storage and retrieval. Databases play a crucial role in web development, powering dynamic web applications that interact with user data, content, and sessions.",
+    "publish": "2024-04-08T23:37:22Z",
+    "created": "2024-04-08T23:37:59.173Z",
+    "updated": "2024-04-16T23:41:20.634Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Markdown",
+    "slug": "markdown",
+    "auther": 4,
+    "image": "images/2024/29/22/download_3.jpeg",
+    "content": "This is a post formatted with markdown\r\n*This is emphasized*  and  **this is more emphasized**.\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djanogproject.com/).",
+    "publish": "2024-04-22T00:26:27Z",
+    "created": "2024-04-22T00:29:20.871Z",
+    "updated": "2024-04-23T19:34:21.635Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 4,
+    "name": "Moataz Fawzy",
+    "email": "motazfawzy73@gmail.com",
+    "content": "I don't know that before. \r\nthanks",
+    "created": "2024-04-12T02:22:29.988Z",
+    "updated": "2024-04-12T02:22:29.988Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "post": 4,
+    "name": "Mark",
+    "email": "mark@gmail.com",
+    "content": "that post is very useful for me .",
+    "created": "2024-04-12T02:25:56.420Z",
+    "updated": "2024-04-12T02:25:56.420Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 11,
+  "fields": {
+    "post": 4,
+    "name": "Moataz Fawzy",
+    "email": "motazfawzy73@gmail.com",
+    "content": "it's very fucking post.",
+    "created": "2024-04-16T22:42:48.167Z",
+    "updated": "2024-04-16T22:42:48.167Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 12,
+  "fields": {
+    "post": 3,
+    "name": "Moataz Fawzy",
+    "email": "motazfawzy73@gmail.com",
+    "content": "it's very helpful post",
+    "created": "2024-04-20T01:00:05.195Z",
+    "updated": "2024-04-20T01:00:05.196Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 13,
+  "fields": {
+    "post": 9,
+    "name": "Moataz Fawzy",
+    "email": "motazfawzy73@gmail.com",
+    "content": "Markdown is my bast forever \r\nMezo ):",
+    "created": "2024-04-22T00:32:40.792Z",
+    "updated": "2024-04-22T00:32:40.792Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 14,
+  "fields": {
+    "post": 5,
+    "name": "Moataz Fawzy",
+    "email": "motazfawzy73@gmail.com",
+    "content": "it's very helpful for me\r\nthanks moataz.",
+    "created": "2024-04-26T00:04:50.234Z",
+    "updated": "2024-04-26T00:04:50.234Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Linux",
+    "slug": "linux"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "OpritingSystem",
+    "slug": "opritingsystem"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Mezo",
+    "slug": "mezo"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "mezo",
+    "slug": "mezo_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]

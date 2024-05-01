@@ -1,0 +1,156 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="lines-wrap">
+    <div class="lines-inner">
+      <div class="lines"></div>
+    </div>
+  </div>
+  <!-- END lines -->
+
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+
+{% include "blog/parts/navbar.html" %}
+
+
+  <div class="custom-hero">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="hero-heading">{{post.title}}</h1>
+          <div  class="line js-line mx-auto mb-3 my-3"></div>
+          <p class="sub-text"><b>Published :</b> {{post.publish}} By <b>{{post.auther}}</b> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container article">
+      <div class="row justify-content-center align-items-stretch">
+
+        <article class="col-lg-8 order-lg-2 px-lg-5">
+          <p>{{post.content|markdown}}</p>
+
+      
+
+          <div class="pt-5 categories_tags ">
+            <h1>Similar Posts:</h1>
+            <ul>
+            {% for post in similar_posts %}
+            <li><h3><a href="{{post.get_absolute_url}}">{{post.title}}</a></h3></li>
+           
+            {% empty %}
+            There are no similar posts yet.
+            {% endfor %}
+          </ul>
+          </div>
+
+         
+
+         <!-- Start comment-list -->
+          <div class="pt-5">
+            {% with comments.count as total_comments %}
+            <h3 class="mb-5">{{total_comments}} Comment{{total_comments|pluralize}}</h3>
+            {% endwith %}
+
+
+           {% for comment in comments %}
+            <ul class="comment-list">
+              <li class="comment">
+               
+                <div class="comment-body">
+                  <h3 class="info">Comment {{forloop.counter}} by {{comment.name}}</h3>
+
+                  <div class="nav-item nav-link disabled" > {{comment.created}}</div>
+                  
+                  
+                  
+                  <div class="alert alert-dark" role="alert">
+                    <p >{{comment.content|linebreaks}}</p>
+                  </div>
+                  <hr>
+
+                </div>
+                
+                {% empty %}
+                <h3 class="mb-5">There are no comments.</h3>
+
+              </li>  
+                               
+                </ul>
+                <hr>
+
+                {% endfor %}
+             
+
+             
+            <!-- END comment-list -->
+            {% include "includes/comment_form.html" %}
+
+           
+
+
+        </article>
+
+        <div class="col-md-12 col-lg-1 order-lg-1">
+          <div class="share sticky-top">
+            <h3><b>Share By Email</b></h3>
+            <ul class="list-unstyled share-article">
+              <li><a href="{% url 'blog:post_share' post.id %} "> 
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACe0lEQVR4nO2ZPWgUQRTHf4nBRKOCjUUKP6r4iUEhWihaik2EFLEwEILaCRIFEa+4ShFsxMJGEFLYCFpopxEJgqIRYmGTxJD4VQiSgBL8wJxMeIFhPMPt3tzuO30/+Dd7OzP/93bu7cwsGIZhGIZhGMbfWAMUgBHgK1BSLufxBXBBvFfFHuCjgqDS6gPQmTb4zcCsgiCq1QzQniYBjxSYj6WHSYPfqsB0bCWaBScVGI6t40kSUFBgOLZcTBVTVGA4tlxMloBKKSp4YjYDsL8AKmvAJ+AiMKRgWi/qHnAeeJ9FAo7IPcuAuwqCvwU0iKeuLBJwzLtvBTCcY/APgOWen94sEjALdHj3tgKPcwjeJX6V52M78DmLBJRkm7nRu9/tu59kGLyrPyu98TeJp0wXQhPAeq+NM3Q/g+BvA83euBuAybxWgpPBTGgCbtYw+GtAY/Dkp/JeCr8FtgXtTwHfIwY+B/QHY+wA3mnZC8wAB4I+dgNvIgQ/BuwM+j4oY6raDH0D+oJ+1gI3gF8p+nNtrpc52OyTsdTuBgeDCr04G54m6OMlsDfoowW4Wi/b4VE5VvNxxeuwrB5/lmnjrt0BDgWFDqkxr+rtPOAHcEkWSiHrgG7grKhbroW4tpelr7o9EJkCeso81aVw+4yjwPS/dCI0BgwAbUuM6347A4zXYPzcE1ASzQOvpVheEQ3KtfkajqsmAaWcZAnAZkDlFBVMWfsLYDUAK4LYWwB7DZLDOqDwvxfBEwoMx9bpJAnYosBwbO0nIUMKTMfSaMLt+ALtKQ4eNeoLsIuUdFbwxUWznPd9VMlq+fT8XLJZD0/8GXBOvBuGYRiGYRgGf/IbjUpi4AEioLwAAAAASUVORK5CYII="
+                style="width: 100%;height: 100%;"></a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-5 mb-lg-0 order-lg-3">
+
+          <div class="mb-4">
+            <a href="https://vimeo.com/342333493" data-fancybox class="video-wrap">
+              <span class="play-wrap"><span class="icon-play"></span></span>
+              {% if post.image %}
+              <img src="{{post.image.url}}" loader="lazy" alt="Image" class="img-fluid rounded">
+              {% else %}
+              <img src="#" loader="lazy" alt="Image" class="img-fluid rounded">
+              {% endif %}
+            </a>
+          </div>  
+
+          <div class="share floating-block sticky-top">
+
+            <h2 class="mb-3 text-black">Subscribe to Newsletter</h2>
+            <p>Far far away behind the word mountains far from.</p>
+            <form action="#">
+              <input type="email" class="form-control mb-2" placeholder="Enter email">
+              <input type="submit" value="Subscribe" class="btn btn-primary btn-block">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+ 
+
+
+{% endblock content %}
+
+
+

@@ -1,0 +1,10 @@
+{% load blog_tags %}
+
+<ul class="list-group">
+    {% for post in latest_posts %}
+   <a href="{{post.get_absolute_url }}"> <li class="list-group-item">{{ post.title }}</li></a>
+   {% endfor %}
+  </ul>
+
+
+
