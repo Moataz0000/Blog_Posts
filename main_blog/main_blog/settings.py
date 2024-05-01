@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -17,12 +18,12 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-JAZZMIN_UI_TWEAKS = {
-    "theme": "darkly",
-}
+# JAZZMIN_UI_TWEAKS = {
+#     "theme": "darkly",
+# }
 
 INSTALLED_APPS = [
-    'jazzmin',
+    # 'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -76,14 +77,22 @@ WSGI_APPLICATION = 'main_blog.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',     
+#         'NAME':'blog',
+#         'USER':'mezo',
+#         'PASSWORD':'4800',
+#     }
+# }
+
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',     
-        'NAME':'blog',
-        'USER':'mezo',
-        'PASSWORD':'4800',
-    }
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        
+    
 }
+
 
 
 
