@@ -138,8 +138,8 @@ MEDIA_URL = '/media/'
 
 # Simple Mail Transfer Portcol
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "motazfawzy73@gmail.com"
-EMAIL_HOST_PASSWORD = "jsrr yiaq itaz kxqd"
+EMAIL_HOST_USER = "Your E-mail"
+EMAIL_HOST_PASSWORD = "Your Password"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
