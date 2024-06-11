@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-!tdmjjd)lqv5n%vq7juibsryin84tr-on2aw&6s4_(o=3lx@u6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -77,21 +77,15 @@ WSGI_APPLICATION = 'main_blog.wsgi.application'
 
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',     
-#         'NAME':'blog',
-#         'USER':'mezo',
-#         'PASSWORD':'4800',
-#     }
-# }
-
+# settings.py
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-        
-    
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / "db.sqlite3",
+    }
 }
+
 
 
 
@@ -144,10 +138,11 @@ MEDIA_URL = '/media/'
 
 # Simple Mail Transfer Portcol
 EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "your E-mail"
-EMAIL_HOST_PASSWORD = "your password"
+EMAIL_HOST_USER = "motazfawzy73@gmail.com"
+EMAIL_HOST_PASSWORD = "jsrr yiaq itaz kxqd"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
